@@ -1,0 +1,89 @@
+/* pagina comprar em grupo  */
+
+
+/* faixada preta inicio */
+.topo-aviso { 
+  background: #2b2b2b; /* preto/cinza escuro */
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.formularios h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F0752D;
+
+}
+
+.formularios h4 {
+    text-align: left;
+    font-weight: 400;
+}
+
+.descricao p {
+    color: rgb(26, 26, 26);
+    text-align: left;
+    font-weight: 400;
+}
+
+.obrigatorio h6 {
+    color: red;
+
+}
+
+/* cartao de credito, pix, boleto e hotmart */
+.pagamentos {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  background: #ffffff;
+
+  font-size: 14px;
+  color: #333;
+
+  transition: 0.2s;
+}
+
+.fundo {
+background: #f7f7f7;
+
+}
+/* ícones */
+.opcao img {
+  width: 22px;
+  height: 22px;
+}
+
+.comprarAgora button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    background:green
+}
+
+.infos p {
+    text-align: left;
+    color: #252525;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
